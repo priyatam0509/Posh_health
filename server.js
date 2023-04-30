@@ -21,6 +21,9 @@ app.use(cors());
 app.get("/", (req, res) => {
   res.send("Home Page");
 });
+app.get("/test", (req, res) => {
+  res.send("Home Page");
+});
 var maillist = [
   'piyushpriya435e@gmail.com',
   'piyatam.official.piyush@gmail.com',
