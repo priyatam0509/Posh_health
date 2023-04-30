@@ -21,7 +21,7 @@ app.use(cors());
 app.get("/", (req, res) => {
   res.send("Home Page");
 });
-app.get("/test", (req, res) => {
+app.get("/api/test", (req, res) => {
   res.send("Home Page");
 });
 var maillist = [
